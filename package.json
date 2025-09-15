@@ -1,7 +1,30 @@
 {
   "name": "dana-app-vercel",
   "version": "1.0.0",
+  "description": "DANA Reward Claim Application - Deployed on Vercel",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Building for Vercel...'",
+    "start": "serve public/ -s",
+    "deploy": "vercel --prod"
+  },
   "dependencies": {
     "axios": "^1.6.2"
-  }
+  },
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "vercel": "^32.5.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "dana",
+    "ewallet",
+    "vercel",
+    "indonesia"
+  ],
+  "author": "DANA App",
+  "license": "MIT"
 }
